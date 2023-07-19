@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Inter-Regular;
+    src: url("./assets/fonts/inter/Inter-Regular.ttf");
+  }
+  @font-face {
+    font-family: Inter-Semi;
+    src: url("./assets/fonts/inter/Inter-SemiBold.ttf");
+  }
+  @font-face {
+    font-family: Inter-Bold;
+    src: url("./assets/fonts/inter/Inter-Bold.ttf");
+  }
+  @font-face {
+    font-family: RobotoMono-Regular;
+    src: url("./assets/fonts/roboto/RobotoMono-Regular.ttf");
+  }
+  @font-face {
+    font-family: RobotoMono-Bold;
+    src: url("./assets/fonts/roboto/RobotoMono-Bold.ttf");
+  }
+  @font-face {
+    font-family: RobotoMono-LightItalic;
+    src: url("./assets/fonts/roboto/RobotoMono-LightItalic.ttf");
+  }
+}
