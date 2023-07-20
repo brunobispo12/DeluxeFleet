@@ -1,3 +1,15 @@
+.dark {
+  --color-bg-primary: #141115;
+  --color-text-primary: #FEF9FF;
+  --color-border-primary: #FEF9FF;
+}
+
+.light {
+  --color-bg-primary: #FEF9FF;
+  --color-text-primary: #141115;
+  --color-border-primary: #141115;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -28,3 +40,5 @@
     src: url("./assets/fonts/roboto/RobotoMono-LightItalic.ttf");
   }
 }
+
+

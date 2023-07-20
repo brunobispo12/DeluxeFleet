@@ -8,7 +8,7 @@ type CarProps = {
 
 function Car({ carImage, carName, carPrice }: CarProps) {
     return (
-        <div className='border w-52 h-72 p-2 border-gray-300 flex flex-col mt-6 gap-5 relative'>
+        <div className='border w-52 h-72 p-2 border-primary flex flex-col mt-6 gap-5 relative'>
             <img src={carImage} alt={`${carName}`} className='w-46 h-36'/>
             <div>
                 <h3 className='font-inter-bold'>{carName}</h3>

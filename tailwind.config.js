@@ -1,8 +1,8 @@
 module.exports = {
-  content: ['index.html','./src/**/*.{js,jsx,ts,tsx,vue,html}'],
+  content: ['index.html', './src/**/*.{js,jsx,ts,tsx,vue,html}'],
   theme: {
     extend: {
-      colors:{
+      colors: {
         'default': '#FEF9FF',
       },
       fontFamily: {
@@ -12,6 +12,15 @@ module.exports = {
         'robotoMono-regular': ['RobotoMono-Regular'],
         'robotoMono-bold': ['RobotoMono-Bold'],
         'robotoMono-lightitalic': ['RobotoMono-LightItalic'],
+      },
+      backgroundColor: {
+        primary: 'var(--color-bg-primary)',
+      },
+      textColor: {
+        primary: 'var(--color-text-primary)',
+      },
+      borderColor: {
+        primary: 'var(--color-border-primary)',
       },
     },
   },
